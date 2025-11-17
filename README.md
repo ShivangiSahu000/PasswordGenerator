@@ -5,7 +5,7 @@ A sleek and secure **Password Generator** built with **HTML, CSS, and JavaScript
 ---
 
 ### 🌐 Live Demo  
-🔗 [View Live Project](https://passwordgenerator0012.netlify.app/)  
+🔗 [View Live Project](https://password-generator-0012.netlify.app/)  
 
 ---
 

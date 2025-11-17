@@ -48,7 +48,7 @@ function setIndicator(color){
 }
 
 function getRandomInteger(min,max){
-   return Math.floor(Math.random()*(max-min))+min;
+   return Math.floor(Math.random()*(max-min+1))+min;
 }
 
 function generateRandomNumber(){
@@ -92,7 +92,7 @@ function calcStrength(){
 async function copyContent(){
     try{
         await navigator.clipboard.writeText(passwordDisplay.value);  //returns promise
-        copyMsg.innertext = "Copied";
+        copyMsg.innerText = "Copied";
 
     }
     catch(e){

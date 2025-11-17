@@ -202,7 +202,7 @@ generateBtn.addEventListener('click', () => {
 
     //remaining adddition
     for(let i=0; i<passwordLength-funcArr.length; i++) {
-        let randIndex = getRandomInteger(0 , funcArr.length);
+        let randIndex = getRandomInteger(0 , funcArr.length - 1);
         console.log("randIndex" + randIndex);
         password += funcArr[randIndex]();
     }
